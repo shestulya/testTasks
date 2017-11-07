@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Данные пользователя</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="jquery-1.2.6.js"></script>
+  </head>
+  <body>
+    <center>
+      <form method="post" id="forma">
+        <center>
+      <table text-align="center" valign="center" cellspacing: 0px >
+        <tr>
+          <td valign="bottom" class="rows"><p class="title">SIGN IN</p></td>
+        </tr>
+        <tr>
+          <p><td class="rows"><input class="all" type="text" name="email" placeholder="Email" id="EandP1"></td></p>
+        </tr>
+        <tr>
+          <p><td class="rows"><input class="all" type="password" name="password" placeholder="Password" id="EandP2"></td></p>
+        </tr>
+        <tr>
+          <td class="rows"><button class="button" type="submit" onclick='alert(document.forms["forma"].elements["EandP1"].value+" : "+document.forms["forma"].elements["EandP2"].value); return true'>Sign in</button></td>
+        </tr>
+        <tr><td class="rows1"></td></tr>
+      </table>
+        </center>
+      </form>
+    </center>
+  </body>
+</html>
